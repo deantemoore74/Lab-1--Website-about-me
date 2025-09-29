@@ -1,0 +1,81 @@
+<html>
+      <head>
+          <title>Coffee Espress</title>   
+            <style>
+                  h1 {
+                        text-align: center;
+                  }
+                  header {
+        text-align: center;
+      }
+      header a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+                  img {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                  }
+            </style>
+      </head>
+      <body style="background-color: black">
+            <header>
+      <a href="Coffee.html">Home</a>
+      <a href="Coffee%20Menu.html">Coffee Menu</a>
+    </header>
+            <h1 style="color: white">Coffee Espress</h1>
+            <img src="Images/Expresso.png"
+                 width="250" height="200"
+                 alt="express" /><br/>
+            <form action="Thankyou.html" method="get">
+            <label style="color: white"  for="fname">
+                  Name</label>
+            <input type="text" id="name" name="name" /><br/><br>
+            <h2 style="color: white">Flavors</h2>
+            <p style="color: white">Please select your flavor <em>*Please fill out each form in full.*</em></p>
+             <input type="checkbox" id="flavor1" name="flavor1" value="French">
+  <label style="color: white" for="flavor1"> French Vanilla 5$
+                 <img src="Images/Vanilla.jpg"
+                 width="100" height="100"
+                 alt="express" /><br/> </label><br>
+  <input type="checkbox" id="flavor2" name="flavor2" value="Pumpkin">
+  <label style="color: white" for="flavor2">
+Pumpkin Spice Latte 6.50$
+                 <img src="Images/Pumpkin.jpg"
+                 width="100" height="100"
+                 alt="express" /><br/> </label><br>
+                  <br>
+<input type="checkbox" id="flavor3" name="flavor3" value="Starwberry">
+  <label style="color: white" for="flavor3"> Strawberry Shortcake Latte 6.50$
+                 <img src="Images/Strawberry%20Shortcake%20Latte.jpg"
+                 width="100" height="100"
+                 alt="express" /><br/> </label><br><br>
+  <input type="checkbox" id="flavor4" name="flavor4" value="Caramel">
+  <label style="color: white" for="flavor4"> Caramel Frappe 6.50$
+                  <img src="Images/Caramel.jpg"
+                 width="100" height="100"
+                 alt="express" /><br/> </label><br><br>
+                   <input type="checkbox" id="flavor5" name="flavor5" 
+                         value="Shot">
+  <label style="color: white" for="flavor4"> 
+       Espresso Shot *FREE*</label><br>
+                   <h2 style="color: white">Payment Method</h2>
+            <p style="color: white">Please select a payment method <em>*Please fill out each form in full.*</em></p>
+  <input type="radio" id="Visa" 
+         name="Method" value="Visa">
+  <label style="color: white" for="Visa">Visa</label><br>
+  
+  <input type="radio" id="Master Card" 
+         name="Method" value="Master Card">
+  <label style="color: white" for="Master Card">Master Card</label><br>
+ 
+ <input type="radio" id="Discover" 
+        name="Method" value="Discover">
+  <label style="color: white" for="Discover">Discover</label><br><br>
+             <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+            </form>
+      </body>
+</html>
